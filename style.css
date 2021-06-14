@@ -22,7 +22,7 @@ header{
 }
 .container{
     width:100%;
-    background-image:url('images/backdrop.png');
+    background-image:url('images/backdrop.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
