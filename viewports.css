@@ -1,9 +1,21 @@
-/*Iphone 11 pro max*/
-@media only screen 
-    and (device-width: 414px) 
-    and (device-height: 896px) 
-    and (-webkit-device-pixel-ratio: 3) 
-{ 
-.container{
-  background-image:url('images/backdrop2.jpg');
+/*safari 7.1*/
+_::-webkit-full-page-media, _:future, :root .safari_only {
+    .container{background-image:url('images/backdrop2.jpg');}
+}
+
+/*safari 6.1-10*/
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) { 
+    @media {
+        .safari6 { 
+.container{background-image:url('images/backdrop2.jpg');}
+        }
+    }
+}
+/*safari 10+*/
+@media not all and (min-resolution:.001dpcm) { 
+    @media {
+        .safari10 { 
+.container{background-image:url('images/backdrop2.jpg');}
+        }
+    }
 }
