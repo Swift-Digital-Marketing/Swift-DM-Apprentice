@@ -16,10 +16,7 @@ html {
 
 .container{
     width:100%;
-    background-image:url('images/backdrop.jpg');
-    background-attachment: fixed;
-    background-position:center;
-    background-repeat: no-repeat;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
