@@ -13,13 +13,7 @@ html {
     
     
 }
-header{
-    width:100%;
-    text-align:center;
-    background-color:#fbba00;
-    font-size:12px;
-  
-}
+
 .container{
     width:100%;
     background-image:url('images/backdrop.jpg');
@@ -44,5 +38,5 @@ img{
 }
 @media screen and (min-width:1000px){
     img{width:50%;}
-    header{width:50%;margin:0 auto;}
+   
 }
