@@ -2,7 +2,7 @@ body {
     min-height: 100%;
     margin: 0;
     padding: 0;
-    background-color: #fbba00;
+    background-color: #ffffff;
     font-size:1em;
 }
 html {
@@ -13,10 +13,19 @@ html {
     
     
 }
-
+header{
+    width:100%;
+    text-align:center;
+    background-color:white;
+    font-size:12px;
+  
+}
 .container{
     width:100%;
-
+    background-image:url('images/backdrop.jpg');
+    background-attachment: fixed;
+    background-position:center;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,5 +44,5 @@ img{
 }
 @media screen and (min-width:1000px){
     img{width:50%;}
-   
+    header{width:50%;margin:0 auto;}
 }
