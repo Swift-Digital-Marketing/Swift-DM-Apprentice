@@ -46,3 +46,4 @@ img{
     img{width:50%;}
     header{width:50%;margin:0 auto;}
 }
+p > a > img:hover{opacity:0.5; transition:0.5s}
