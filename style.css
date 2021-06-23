@@ -77,7 +77,7 @@ img{
   .parallax {
     height: 100vh;
     overflow-x: hidden;
-    overflow-y: scroll;
+    
     -webkit-perspective: 1px;
     perspective: 1px;
   }
