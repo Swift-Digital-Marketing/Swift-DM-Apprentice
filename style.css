@@ -65,15 +65,7 @@ img{
   ::-webkit-scrollbar { 
       display: none; 
   }
-  .fixed {
-    position: fixed;
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    width: 100vw;
-    
-    font-size: 24px;
-  }
+
   .parallax {
     height: 100vh;
     overflow-x: hidden;
